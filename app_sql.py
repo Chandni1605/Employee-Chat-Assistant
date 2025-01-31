@@ -116,7 +116,7 @@ def get_response(query):
 # Streamlit UI
 st.set_page_config(page_title="Employee Chat Assistant", page_icon="💬")
 st.markdown("<h1 style='text-align: center; color: black;'>Employee Chat Assistant</h1>", unsafe_allow_html=True)
-set_background("/Users/chandnisingh/Downloads/chatbot.png")
+set_background("chatbot.png")
 
 st.markdown("<h3 style='color: black;'>Ask a question about employees and departments.</h3>", unsafe_allow_html=True)
 
